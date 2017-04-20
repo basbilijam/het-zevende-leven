@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  /*font-family: 'Lato', 'Arial', sans-serif;*/
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+}
+
+.jumbotron {
+  background-color: transparent;
+  padding-top: 20%;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #fff;
+  word-spacing: 4px;
+  /*font-size: 300%;*/
+  /*font-size: 4.5rem;*/
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+.full-page-image {
+  color: white;
+  background: url("../images/main/buitenaanzicht.jpg") no-repeat center center;
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.btn-primary {
+  background-color: rgba(69, 100, 51, 0.8);
+  border-color: rgba(69, 100, 51, 1);
+  border-radius: 50px;
+  font-family: 'Josefin Slab', serif;
+}
+
+.btn-primary:hover {
+  background-color: rgba(69, 100, 51, 1);
+  border-color:rgba(69, 100, 51, 1);
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+#over-ons p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+hr {
+  border-top: 3px solid rgba(69, 100, 51, 0.8);
+  width: 20%;
+  margin-bottom: 40px;
+}
+
+/*photo gallery "over-ons" section*/
+.main-photo {
+  display: inline-block;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.card {
+  float: left;
+  display: inline-block;
+}
+
+.gallery-photo {
+  display: inline-block;
+  float:left;
+}
+
+.col-sm-4 {
+  display: inline-block;
+  float: left;
+  /*width: 32.6%;*/
+  margin-bottom: 50px;
+}
+
+.gallery-photo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.box-shadow {
+   -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+   box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+/*sections with grey background*/
+.grey-section {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+}
+
+/*Link list*/
+
+.link-list {
+  /*margin: 0 auto;*/
+  display: inline-block;
+  float: left;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  background-color: #fff;
+  /*text-align: center;*/
+  margin-bottom: 15px;
+  line-height: 145%;
+  box-shadow: 0px 3px 3px #e3e3e3;
+  border-radius: 3px;
+}
+
+.bullets {
+  color: rgba(69, 100, 51, 0.8);
+}
+
+.mx-auto {
+  width: 400px;
+}
+
+/*full page picture*/
+.carousel-img1 {
+  color: white;
+  background: url("../images/carousel/boerderij.jpg") no-repeat center center;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.carousel-img2 {
+  color: white;
+  background: url("../images/carousel/wergea.jpg") no-repeat center center;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.carousel-img3 {
+  color: white;
+  background: url("../images/carousel/interieur2.jpg") no-repeat center center;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+/*google-maps*/
+
+.map-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.map-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/*form*/
+
+.span-1-in-3 {
+  width: 32.26%;
+}
+
+.span-2-in-3 {
+  float: right;
+}
+
+::-webkit-input-placeholder {
+   font-family: 'Josefin Slab', serif;
+}
+
+input, textarea, select {
+  font-family:inherit;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+/*footer*/
+footer {
+    background-color: #333;
+    padding: 30px;
+    height: 150px;
+    font-size: 80%;
+}
+
+.span-1-of-2 {
+    width: 49.2%;
+}
+
+.footer-nav li a{
+  font-size: 110%;
+  color: white;
+}
+
+.social-icons li a{
+  font-size: 130%;
+  color: white;
+}
+
+.social-icons ul {
+  float: right;
+}
+
+.social-icons li img {
+  height: 45%;
+  margin-left: 5px;
+}
+
+.footer-copy p {
+  margin: 0 auto;
+  margin-top: 40px;
+  color: white;
+  font-size: 80%;
+}
