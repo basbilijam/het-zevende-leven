@@ -127,16 +127,14 @@ hr {
 }
 
 /*Link list*/
-
 .link-list {
-  /*margin: 0 auto;*/
+  margin: 0 auto;
   display: inline-block;
   float: left;
   width: 100%;
   height: 300px;
   padding: 20px;
   background-color: #fff;
-  /*text-align: center;*/
   margin-bottom: 15px;
   line-height: 145%;
   box-shadow: 0px 3px 3px #e3e3e3;
@@ -151,7 +149,7 @@ hr {
   width: 400px;
 }
 
-/*full page picture*/
+/*carousel pictures*/
 .carousel-img1 {
   color: white;
   background: url("../images/carousel/boerderij.jpg") no-repeat center center;
@@ -172,7 +170,7 @@ hr {
 
 .carousel-img3 {
   color: white;
-  background: url("../images/carousel/interieur2.jpg") no-repeat center center;
+  background: url("../images/carousel/slaapkamer.jpg") no-repeat center center;
   height: 50vh;
   width: 100%;
   background-size: cover;
@@ -180,7 +178,6 @@ hr {
 }
 
 /*google-maps*/
-
 .map-container {
   width: 100%;
   height: 0;
@@ -197,8 +194,7 @@ hr {
   pointer-events: none;
 }
 
-/*form*/
-
+/*contact form*/
 .span-1-in-3 {
   width: 32.26%;
 }
@@ -227,20 +223,6 @@ footer {
     font-size: 80%;
 }
 
-@media only screen and (max-width: 806px) {
-footer {
-    height: 200px;
-  }
-}
-
-@media only screen and (max-width: 806px) {
-.footer-nav li, .social-icons li {
-    display: block;
-    margin-right: 10px;
-    padding: 5px 0;
-  }
-}
-
 .span-1-of-2 {
     width: 49.2%;
 }
@@ -248,6 +230,10 @@ footer {
 .footer-nav li a{
   font-size: 110%;
   color: white;
+}
+
+.footer-nav li a:hover {
+  text-decoration: underline;
 }
 
 .social-icons li a{
@@ -262,6 +248,20 @@ footer {
 .social-icons li img {
   height: 45%;
   margin-left: 5px;
+}
+
+@media only screen and (max-width: 806px) {
+footer {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 806px) {
+.footer-nav li a, .social-icons li a {
+    margin-right: 5px;
+    padding: 5px 0;
+    float: none;
+  }
 }
 
 .footer-copy p {

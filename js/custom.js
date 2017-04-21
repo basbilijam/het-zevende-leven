@@ -8,4 +8,6 @@ $(document).ready(function(){
   $( ".map-container" ).mouseleave(function() {
     $('.map-container iframe').css("pointer-events", "none");
   });
+
+
 });
