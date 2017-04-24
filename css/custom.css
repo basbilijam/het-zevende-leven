@@ -152,7 +152,7 @@ hr {
 /*carousel pictures*/
 .carousel-img1 {
   color: white;
-  background: url("../images/carousel/boerderij.jpg") no-repeat center center;
+  background: url("../images/carousel/wergea.jpg") no-repeat center center;
   height: 50vh;
   width: 100%;
   background-size: cover;
@@ -161,7 +161,7 @@ hr {
 
 .carousel-img2 {
   color: white;
-  background: url("../images/carousel/wergea.jpg") no-repeat center center;
+  background: url("../images/carousel/fryslan.jpg") no-repeat center center;
   height: 50vh;
   width: 100%;
   background-size: cover;
