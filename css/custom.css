@@ -105,6 +105,13 @@ hr {
   margin-bottom: 50px;
 }
 
+@media (max-width:768px) and (min-width:576px) {
+  .col-sm-4 {
+    -webkit-flex: none;
+    max-width: 550px;
+  }
+}
+
 .gallery-photo {
   width: 100%;
   height: auto;
